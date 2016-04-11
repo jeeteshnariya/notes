@@ -1,2 +1,3 @@
-# notes
-Centpanel settings
+# Notes & Settings Files
+Centpanel Settings
+My Sublime Settings
