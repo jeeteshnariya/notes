@@ -1,0 +1,70 @@
+Active user account(s)(username/password): root/reverse. 
+
+
+
+when clone 
+MAC ADDRESS CHANGE IN 
+
+
+cd /etc/sysconfig/network-scripts
+
+vi ifcfg-eth0
+FOR insert mod press IIII
+add below--------------
+
+
+IFCFG-ETH0
+
+
+static
+IPADDR=192.168.1
+
+NETMASK=255.255.255.0
+GATEWAY=192.168.1.1
+DNS1=192.168.1.1
+
+ESC 
+:wq  write and quit
+
+or
+
+:q only quit
+
+-------------------
+
+service network restart
+-----------
+reboot
+
+-------------
+Re: [SOLVED] virtualbox centos6 guest - Device eth0 does not
+
+rm /etc/udev/rules.d/70-persistant-net.rules // persistEEEnt
+
+----------------------
+Wget : command not found
+
+check---
+rpm -q wget
+wget-1.10.2-7.el5
+
+yum install wget
+
+yum install apt-------------------
+
+------------------------------------------------APTAPTAPT
+Can I use the APT package manager on the CentOS-based RightScale images? If so, how?
+Answer
+
+RightScale does not officially support APT on the CentOS 5 based images. You may have noticed that "yum install apt" results in "nothing to do." However, you can install it using YUM (centos uses YUM instead of APT). Since it requires downloading from a third party source (RPMforge). Please do so at your own risk.
+
+    Download and install the rpm forge release, which will enable YUM to access:
+
+    wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.3.6-1.el5.rf.i386.rpm
+    rpm -i rpmforge-release-0.3.6-1.el5.rf.i386.rpm
+
+    After this is installed (it takes a long time), you can install APT.
+
+    You should now be able to use apt-get and install the apt repositories. You will have to add your sources at /etc/apt/sources.list.d
+
+------------------------------------------------APTAPTAPT

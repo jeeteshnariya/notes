@@ -1,0 +1,57 @@
+
+How to reset any centos clone file when not start network
+
+1.check network mac address it was differnt when clone
+
+2.set new setting on path
+
+cd /etc/sysconfig/network-scripts
+ls
+**
+found file
+
+eth0-ifcfg like
+
+vi file name
+for edit prees i of insertmode
+
+
+DEVICE=eth0
+HWADDR=08:00:27:2C:5E:BC
+TYPE=Ethernet
+UUID=8bb1583b-5f98-43e8-b7e1-36b7c8bba4b1
+ONBOOT=yes
+NM_CONTROLLED=yes
+BOOTPROTO=static
+IPADDR=192.168.1.111
+NETMASK=255.255.255.0
+GATEWAY=192.168.1.1
+DNS1=192.168.1.1
+~                   
+
+
+
+edit it 
+ESC 
+and 
+:q for quit
+:wq for write and quit
+
+
+check
+
+sudo service network restart
+
+if failed then remove below file
+ 
+**path file 
+cd /etc/udev/rules.d
+
+**copy if any prob
+cp 70-persistent-net.rules /root/
+
+** remove fiel
+rm 70-persistent-net.rules
+
+
+reboot

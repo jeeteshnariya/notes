@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>
+            Document
+        </title>
+        <!-- Latest compiled and minified CSS & JS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+        <script src="//code.jquery.com/jquery.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+        </script>
+        <style type="text/css" media="screen">
+            body * {
+            border-radius: 0px;
+            }
+
+            .logo {
+             padding-top: 120px;
+            margin: 0px auto;
+            padding-bottom: 20px;
+            display: block;
+            }
+            .bottombar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            margin: 0;
+            }
+            .navbar-default.cg {
+            background-color: #fff;
+            border-color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-default cg" role="navigation">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">
+                                    Toggle navigation
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                            </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="#">
+                                        Link
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Dropdown
+                                        <b class="caret">
+                                        </b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">
+                                                Action
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Another action
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Something else here
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Separated link
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="row logobar">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-md-offset-3 col-lg-6">
+                            <img class="logo" src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""/>
+                            <form action="" method="POST" role="form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="" placeholder=""/>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-md-offset-3 col-lg-6">
+                                        <button type="button" class="btn btn-default">
+                                            Google Search
+                                        </button>
+                                        <button type="button" class="btn btn-default">
+                                            I'm Feeling Lucky
+                                        </button>
+                                    </div>
+                                </div>
+                                <br/>
+                                <p class="text-center">
+                                    Google.co.in offered in:
+                                    <a href="#" "email me">
+                                        हिन्दी
+                                    </a>
+                                    বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <nav class="navbar navbar-default bottombar" role="navigation">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">
+                                    Toggle navigation
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                            </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="#">
+                                        Advertising
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Business
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" title="">
+                                        About
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="#">
+                                        Link
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Dropdown
+                                        <b class="caret">
+                                        </b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">
+                                                Action
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Another action
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Something else here
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Separated link
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </body>
+</html>
