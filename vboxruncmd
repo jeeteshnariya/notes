@@ -1,0 +1,27 @@
+create file
+/////////////
+
+
+vm.run.bat
+
+put code------>
+
+cd "c:\Program Files\Oracle\VirtualBox\"
+VBoxHeadless.exe -s {vm_name} -v on
+
+
+create file
+////////////////
+vm.run.vbs
+
+put code----->
+
+Set WshShell = WScript.CreateObject("WScript.Shell")
+obj = WshShell.Run("vm.run.bat", 0)
+set WshShell = Nothing
+
+run and test it - CLI will be run in background.
+---------------------
+
+wscript.exe vm.run.vbs
+
