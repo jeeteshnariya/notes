@@ -1,0 +1,79 @@
+1.(download RUBY INSTALLER) ---NOT RUBY 
+
+http://rubyinstaller.org/
+
+Ruby 2.3.1
+Ruby 2.3.1 (x64)  --- THIS IS LAST
+Ruby 2.2.5
+Ruby 2.2.5 (x64)
+
+For use with Ruby 2.0 and above (x64 - 64bits only)
+
+DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe  --- THIS ON ALSO
+
+
+RUN RUBY-2.3.1.exe install c: drive
+
+Extract sfx.exe in c:DevKit -- CREATE DEVKIT FOLDER
+
+---------------------------------
+2.(RUN Command at Devkit Folder)
+
+ruby dk.rb init
+ruby dk.rb install
+
+complete..!
+-----------------------------------
+3. Install gem addons like sass compass susy
+
+ruby -v
+gem update --system
+gem install compass
+compass -v
+gem list
+gem install susy  {for compass}
+gem install breakpoint {for compass}
+pwd 
+cd -path our app
+touch config.rg  (--serach in github or go compass web to config file)
+=========== in file ======
+require 'susy'
+require 'breakpoint'
+
+project_type = :stand_alone
+http_path = "/"
+sass_dir = "scss"
+css_dir = "css"
+images_dir = 'images'
+fonts_dir = "fonts"
+javascript_dir = 'js'
+line_comments = false
+preferred_syntax = :scss
+output_style = :compressed
+ralative_assets = true
+========== end file ====== it's need only when we use [ruby sass compass] ~~ not gulp-sass watching
+
+back cmd
+--------------
+node -v   [install node form web! download it]
+
+npm install -g bower
+
+bower -v
+bower list --path
+bower install <pakagename>
+bower install <pakagename> --save   [https://bower.io/docs/api/]
+[.bowerrc  crete file for directory name chage bowe_component to lib] check bower.io configured 
+
+
+npm install -g gulp
+gulp -v
+
+gulp install <pakagename> --save-dev
+
+
+ 
+
+
+
+
