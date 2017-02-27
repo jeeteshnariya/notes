@@ -1,0 +1,28 @@
+
+
+
+SWT  -> Simple Web Tokens  
+JWT  -> JSON Web Token (jot) RFC6750 [small to SAML token small size good for passing http header]
+HMAC -> keyed-hash message authentication code (JWT encode by HMAC Algorithm)
+SAML -> Security Assertion Markup Language Tokens  (more big thn jwt)
+SSO  -> Single Sign On   [work with JWT]
+CORS -> Cross-Origin Resource Sharing   [use of api multi domain data exchange]
+
+
+
+JSON is Base64Url encoded
+JWT IS
+
+Header.Payload.Signature
+
+
+
+
+http authorization header types
+http 1.1
+
+Authorization: Bearer <token>
+
+Basic  _< encode token SWT Tokens 
+Digest _<    ||  username + password SWT Tokens 
+Bearer _< encode JWT Tokens 

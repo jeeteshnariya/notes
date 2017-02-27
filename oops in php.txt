@@ -1,0 +1,47 @@
+class -> simplay create class
+1.inheritance
+class  extend subcalss -> it's call inheritance of parent class
+2.encapsulation
+public protected and privte propertys allow not allow it's encapsulation
+3.abstract class
+main class it's minus of use so u can not declare this class but u use this funcition creating child class object
+u must set to impiments function which complsery created in sub classes using abstract funcion name($para);
+
+4. interfaces
+create classes join interfaces mutliple which cant do abstract but u cant implimant fucntion u only declare function which must be present those class who use this interface the u crete this name function must be in your class and you only decalare public funciton in interface bcz interface mean you saying that this function are compersary in your newly classes
+
+5. static class and late static class function
+it's use directly with out create object class::funtion not need  $var = new class() and use $var->funtion() u use directly class::function and some method change like $this to self and   {:: scope resolution operator}{-> object operator arrow}
+for late statis use static::data self:data rather than $this->data;
+
+6. depency injection
+one class use other class  like calling PDO class in our DB class in proteced $pdo = new PDO() and use all fucntion of our DB class like $this->pdo->result() ,so it is
+
+
+7. Lambdas and Closures, in laravel
+
+anonymous functions mean simple function pass para and return it.
+// Regular function
+function greeting () {  // name
+  return "Hello world";
+}
+
+// Anonymous function
+function () {   //without name function
+  return "Hello world";
+}
+
+ using of lamdas it mean process of store function in variable
+// Anonymous function
+// assigned to variable
+$greeting = function () {
+  return "Hello world";
+}
+ 
+// Call function
+echo $greeting();
+// Returns "Hello world"
+
+
+
+Eager loading is the process whereby a query for one type of entity also loads related entities as part of the query. Eager loading is achieved by use of the Include method. For example, the queries below will load blogs and all the posts related to each blog.Oct 23, 2016
