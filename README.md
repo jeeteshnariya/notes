@@ -5,8 +5,8 @@ My Sublime Settings
 
 # Git global setup
 ```
-git config --global user.name "Jeeten P@tel"
-git config --global user.email "jeeteshnariya@gmail.com"
+git config --global user.name "Your Name"
+git config --global user.email "Your@email.com"
 ```
 # Create a new repository
 ```
